@@ -10,7 +10,7 @@ class MapScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Google Maps Example')),
       body: const GoogleMap(
         initialCameraPosition: CameraPosition(
-          target: LatLng(37.7749, -122.4194), // San Francisco
+          target: LatLng(37.7749, -122.4194),
           zoom: 12,
         ),
       ),
